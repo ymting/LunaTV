@@ -43,3 +43,6 @@ sitemap-*.xml
 # generated files
 src/lib/runtime.ts
 public/manifest.json
+
+# 本地上下文记忆，禁止推送
+memory/

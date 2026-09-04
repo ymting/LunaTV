@@ -1,0 +1,6 @@
+allowBuilds:
+  javascript-obfuscator: true
+  unrs-resolver: true
+onlyBuiltDependencies:
+  - javascript-obfuscator
+  - unrs-resolver

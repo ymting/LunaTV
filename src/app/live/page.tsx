@@ -20,6 +20,8 @@ import { parseCustomTimeFormat } from '@/lib/time';
 import EpgScrollableRow from '@/components/EpgScrollableRow';
 import PageLayout from '@/components/PageLayout';
 
+import { getPlayerTheme, useArtPlayerTheme } from '@/features/theme/core/useArtPlayerTheme';
+
 // 扩展 HTMLVideoElement 类型以支持 hls 属性
 declare global {
   interface HTMLVideoElement {
@@ -215,6 +217,7 @@ function LivePageClient() {
 
   // 播放器引用
   const artPlayerRef = useRef<any>(null);
+  useArtPlayerTheme(artPlayerRef);
   const artRef = useRef<HTMLDivElement | null>(null);
 
   // 分组标签滚动相关
@@ -920,7 +923,7 @@ function LivePageClient() {
           playsInline: true,
           autoPlayback: false,
           airplay: true,
-          theme: '#22c55e',
+          theme: getPlayerTheme(),
           lang: 'zh-cn',
           hotkey: false,
           fastForward: false, // 直播不需要快进

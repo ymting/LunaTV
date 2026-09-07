@@ -1,0 +1,15 @@
+/* 唯一旧组件兼容点：固定暗色下隐藏明暗按钮，保留独立主题预设入口。
+ * 选择器和组件契约见 audit/compatibility-hooks.json；禁止映射绿色工具类。
+ */
+[data-theme='netflix']
+  [data-theme-scope='consumer']
+  [aria-label='Toggle theme'] {
+  display: none;
+}
+
+/* 仅提供消费页面外层表面，子组件成功、在线与健康绿色完全保留。 */
+[data-theme='netflix']
+  [data-theme-scope='consumer'][data-theme-surface='page'] {
+  color: var(--theme-text);
+  background-color: var(--theme-bg);
+}

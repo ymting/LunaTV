@@ -1,0 +1,1237 @@
+{
+  "baseline": "c68f75a",
+  "entries": [
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 55,
+      "source": "success: 'px-3 py-1.5 text-sm font-medium bg-green-600 hover:bg-green-700 dark:bg-green-600 dark:hover:bg-green-700 text-white rounded-lg transition-colors',",
+      "category": "status",
+      "reason": "后台成功、启用和正向统计状态必须保留绿色，禁止视觉改写"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 65,
+      "source": "successSmall: 'px-2 py-1 text-xs font-medium bg-green-600 hover:bg-green-700 dark:bg-green-600 dark:hover:bg-green-700 text-white rounded-md transition-colors',",
+      "category": "status",
+      "reason": "后台成功、启用和正向统计状态必须保留绿色，禁止视觉改写"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 74,
+      "source": "roundedSuccess: 'inline-flex items-center px-3 py-1.5 rounded-full text-xs font-medium bg-green-100 text-green-800 hover:bg-green-200 dark:bg-green-900/40 dark:hover:bg-green-900/60 dark:text-green-200 transition-colors',",
+      "category": "status",
+      "reason": "后台成功、启用和正向统计状态必须保留绿色，禁止视觉改写"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 83,
+      "source": "toggleOn: 'bg-green-600 dark:bg-green-600',",
+      "category": "status",
+      "reason": "后台成功、启用和正向统计状态必须保留绿色，禁止视觉改写"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 132,
+      "source": "return <CheckCircle className=\"w-8 h-8 text-green-500\" />;",
+      "category": "status",
+      "reason": "后台成功、启用和正向统计状态必须保留绿色，禁止视觉改写"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 145,
+      "source": "return 'bg-green-50 dark:bg-green-900/20 border-green-200 dark:border-green-800';",
+      "category": "status",
+      "reason": "后台成功、启用和正向统计状态必须保留绿色，禁止视觉改写"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 787,
+      "source": "<div className='p-4 bg-green-50 dark:bg-green-900/20 rounded-lg border border-green-200 dark:border-green-800'>",
+      "category": "status",
+      "reason": "后台成功、启用和正向统计状态必须保留绿色，禁止视觉改写"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 788,
+      "source": "<div className='text-2xl font-bold text-green-800 dark:text-green-300'>",
+      "category": "status",
+      "reason": "后台成功、启用和正向统计状态必须保留绿色，禁止视觉改写"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 791,
+      "source": "<div className='text-sm text-green-600 dark:text-green-400'>",
+      "category": "status",
+      "reason": "后台成功、启用和正向统计状态必须保留绿色，禁止视觉改写"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 930,
+      "source": "className='px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-green-500 focus:border-transparent'",
+      "category": "brand",
+      "reason": "受保护后台的表单焦点与选项保持工具界面原样"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 939,
+      "source": "className='px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-green-500 focus:border-transparent'",
+      "category": "brand",
+      "reason": "受保护后台的表单焦点与选项保持工具界面原样"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 951,
+      "source": "className='w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-green-500 focus:border-transparent'",
+      "category": "brand",
+      "reason": "受保护后台的表单焦点与选项保持工具界面原样"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 1163,
+      "source": "? 'bg-green-100 dark:bg-green-900/20 text-green-800 dark:text-green-300'",
+      "category": "status",
+      "reason": "后台成功、启用和正向统计状态必须保留绿色，禁止视觉改写"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 1817,
+      "source": "<div className='bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-lg p-4'>",
+      "category": "status",
+      "reason": "后台成功、启用和正向统计状态必须保留绿色，禁止视觉改写"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 1819,
+      "source": "<svg className='w-5 h-5 text-green-600 dark:text-green-400' fill='none' stroke='currentColor' viewBox='0 0 24 24'>",
+      "category": "status",
+      "reason": "后台成功、启用和正向统计状态必须保留绿色，禁止视觉改写"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 1822,
+      "source": "<span className='text-sm font-medium text-green-800 dark:text-green-300'>",
+      "category": "status",
+      "reason": "后台成功、启用和正向统计状态必须保留绿色，禁止视觉改写"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 2300,
+      "source": "className: 'bg-green-100 dark:bg-green-900/20 text-green-800 dark:text-green-300',",
+      "category": "status",
+      "reason": "后台成功、启用和正向统计状态必须保留绿色，禁止视觉改写"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 2376,
+      "source": "? 'bg-green-100 dark:bg-green-900/20 text-green-800 dark:text-green-300'",
+      "category": "status",
+      "reason": "后台成功、启用和正向统计状态必须保留绿色，禁止视觉改写"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 2972,
+      "source": "? 'bg-green-100 dark:bg-green-900/20 text-green-800 dark:text-green-300'",
+      "category": "status",
+      "reason": "后台成功、启用和正向统计状态必须保留绿色，禁止视觉改写"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 3275,
+      "source": "className='w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all duration-200 shadow-sm hover:border-gray-400 dark:hover:border-gray-500'",
+      "category": "brand",
+      "reason": "受保护后台的表单焦点与选项保持工具界面原样"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 3317,
+      "source": "className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 ${autoUpdate",
+      "category": "brand",
+      "reason": "受保护后台的表单焦点与选项保持工具界面原样"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 3563,
+      "source": "className=\"w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-green-500 focus:border-transparent\"",
+      "category": "brand",
+      "reason": "受保护后台的表单焦点与选项保持工具界面原样"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 3583,
+      "source": "className=\"w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-green-500 focus:border-transparent\"",
+      "category": "brand",
+      "reason": "受保护后台的表单焦点与选项保持工具界面原样"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 3600,
+      "source": "className=\"w-full px-3 py-2.5 pr-10 border border-gray-300 dark:border-gray-600 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500 transition-all duration-200 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 shadow-sm hover:border-gray-400 dark:hover:border-gray-500 text-left\"",
+      "category": "brand",
+      "reason": "受保护后台的表单焦点与选项保持工具界面原样"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 3629,
+      "source": "? 'bg-green-50 dark:bg-green-900/20 text-green-600 dark:text-green-400'",
+      "category": "brand",
+      "reason": "受保护后台的表单焦点与选项保持工具界面原样"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 3635,
+      "source": "<Check className='w-4 h-4 text-green-600 dark:text-green-400 flex-shrink-0 ml-2' />",
+      "category": "brand",
+      "reason": "受保护后台的表单焦点与选项保持工具界面原样"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 3686,
+      "source": "className=\"w-full px-3 py-2.5 border border-gray-300 dark:border-gray-600 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500 transition-all duration-200 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 shadow-sm hover:border-gray-400 dark:hover:border-gray-500\"",
+      "category": "brand",
+      "reason": "受保护后台的表单焦点与选项保持工具界面原样"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 3712,
+      "source": "className=\"w-full px-3 py-2.5 pr-10 border border-gray-300 dark:border-gray-600 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500 transition-all duration-200 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 shadow-sm hover:border-gray-400 dark:hover:border-gray-500 text-left\"",
+      "category": "brand",
+      "reason": "受保护后台的表单焦点与选项保持工具界面原样"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 3741,
+      "source": "? 'bg-green-50 dark:bg-green-900/20 text-green-600 dark:text-green-400'",
+      "category": "brand",
+      "reason": "受保护后台的表单焦点与选项保持工具界面原样"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 3747,
+      "source": "<Check className='w-4 h-4 text-green-600 dark:text-green-400 flex-shrink-0 ml-2' />",
+      "category": "brand",
+      "reason": "受保护后台的表单焦点与选项保持工具界面原样"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 3798,
+      "source": "className=\"w-full px-3 py-2.5 border border-gray-300 dark:border-gray-600 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500 transition-all duration-200 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 shadow-sm hover:border-gray-400 dark:hover:border-gray-500\"",
+      "category": "brand",
+      "reason": "受保护后台的表单焦点与选项保持工具界面原样"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 3822,
+      "source": "className='w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-green-500 focus:border-transparent'",
+      "category": "brand",
+      "reason": "受保护后台的表单焦点与选项保持工具界面原样"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 3841,
+      "source": "className='w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-green-500 focus:border-transparent'",
+      "category": "brand",
+      "reason": "受保护后台的表单焦点与选项保持工具界面原样"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 3861,
+      "source": "className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 ${siteSettings.DisableYellowFilter",
+      "category": "brand",
+      "reason": "受保护后台的表单焦点与选项保持工具界面原样"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 3895,
+      "source": "className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 ${siteSettings.FluidSearch",
+      "category": "brand",
+      "reason": "受保护后台的表单焦点与选项保持工具界面原样"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 3929,
+      "source": "className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 ${siteSettings.EnableWebLive",
+      "category": "brand",
+      "reason": "受保护后台的表单焦点与选项保持工具界面原样"
+    },
+    {
+      "file": "src/app/admin/page.tsx",
+      "line": 4212,
+      "source": "? 'bg-green-100 dark:bg-green-900/20 text-green-800 dark:text-green-300'",
+      "category": "status",
+      "reason": "后台成功、启用和正向统计状态必须保留绿色，禁止视觉改写"
+    },
+    {
+      "file": "src/app/douban/page.tsx",
+      "line": 802,
+      "source": "<div className='animate-spin rounded-full h-6 w-6 border-b-2 border-green-500'></div>",
+      "category": "brand",
+      "reason": "豆瓣影片加载反馈沿用经典品牌色"
+    },
+    {
+      "file": "src/app/live/page.tsx",
+      "line": 923,
+      "source": "theme: '#22c55e',",
+      "category": "brand",
+      "reason": "直播加载动画、频道选择与导航使用经典品牌色"
+    },
+    {
+      "file": "src/app/live/page.tsx",
+      "line": 1068,
+      "source": "<div className='relative mx-auto w-24 h-24 bg-gradient-to-r from-green-500 to-emerald-600 rounded-2xl shadow-2xl flex items-center justify-center transform hover:scale-105 transition-transform duration-300'>",
+      "category": "brand",
+      "reason": "直播加载动画、频道选择与导航使用经典品牌色"
+    },
+    {
+      "file": "src/app/live/page.tsx",
+      "line": 1071,
+      "source": "<div className='absolute -inset-2 bg-gradient-to-r from-green-500 to-emerald-600 rounded-2xl opacity-20 animate-spin'></div>",
+      "category": "brand",
+      "reason": "直播加载动画、频道选择与导航使用经典品牌色"
+    },
+    {
+      "file": "src/app/live/page.tsx",
+      "line": 1076,
+      "source": "<div className='absolute top-2 left-2 w-2 h-2 bg-green-400 rounded-full animate-bounce'></div>",
+      "category": "brand",
+      "reason": "直播加载动画、频道选择与导航使用经典品牌色"
+    },
+    {
+      "file": "src/app/live/page.tsx",
+      "line": 1078,
+      "source": "className='absolute top-4 right-4 w-1.5 h-1.5 bg-emerald-400 rounded-full animate-bounce'",
+      "category": "brand",
+      "reason": "直播加载动画、频道选择与导航使用经典品牌色"
+    },
+    {
+      "file": "src/app/live/page.tsx",
+      "line": 1092,
+      "source": "className={`w-3 h-3 rounded-full transition-all duration-500 ${loadingStage === 'loading' ? 'bg-green-500 scale-125' : 'bg-green-500'",
+      "category": "brand",
+      "reason": "直播加载动画、频道选择与导航使用经典品牌色"
+    },
+    {
+      "file": "src/app/live/page.tsx",
+      "line": 1096,
+      "source": "className={`w-3 h-3 rounded-full transition-all duration-500 ${loadingStage === 'fetching' ? 'bg-green-500 scale-125' : 'bg-green-500'",
+      "category": "brand",
+      "reason": "直播加载动画、频道选择与导航使用经典品牌色"
+    },
+    {
+      "file": "src/app/live/page.tsx",
+      "line": 1100,
+      "source": "className={`w-3 h-3 rounded-full transition-all duration-500 ${loadingStage === 'ready' ? 'bg-green-500 scale-125' : 'bg-gray-300'",
+      "category": "brand",
+      "reason": "直播加载动画、频道选择与导航使用经典品牌色"
+    },
+    {
+      "file": "src/app/live/page.tsx",
+      "line": 1108,
+      "source": "className='h-full bg-gradient-to-r from-green-500 to-emerald-600 rounded-full transition-all duration-1000 ease-out'",
+      "category": "brand",
+      "reason": "直播加载动画、频道选择与导航使用经典品牌色"
+    },
+    {
+      "file": "src/app/live/page.tsx",
+      "line": 1233,
+      "source": ": 'bg-green-400'",
+      "category": "status",
+      "reason": "频道列表展开及当前播放频道状态指示保留绿色"
+    },
+    {
+      "file": "src/app/live/page.tsx",
+      "line": 1286,
+      "source": "<div className='relative mx-auto w-24 h-24 bg-gradient-to-r from-green-500 to-emerald-600 rounded-2xl shadow-2xl flex items-center justify-center transform hover:scale-105 transition-transform duration-300'>",
+      "category": "brand",
+      "reason": "直播加载动画、频道选择与导航使用经典品牌色"
+    },
+    {
+      "file": "src/app/live/page.tsx",
+      "line": 1288,
+      "source": "<div className='absolute -inset-2 bg-gradient-to-r from-green-500 to-emerald-600 rounded-2xl opacity-20 animate-spin'></div>",
+      "category": "brand",
+      "reason": "直播加载动画、频道选择与导航使用经典品牌色"
+    },
+    {
+      "file": "src/app/live/page.tsx",
+      "line": 1314,
+      "source": "? 'text-green-600 dark:text-green-400'",
+      "category": "brand",
+      "reason": "直播加载动画、频道选择与导航使用经典品牌色"
+    },
+    {
+      "file": "src/app/live/page.tsx",
+      "line": 1315,
+      "source": ": 'text-gray-700 hover:text-green-600 bg-black/5 dark:bg-white/5 dark:text-gray-300 dark:hover:text-green-400 hover:bg-black/3 dark:hover:bg-white/3'",
+      "category": "brand",
+      "reason": "直播加载动画、频道选择与导航使用经典品牌色"
+    },
+    {
+      "file": "src/app/live/page.tsx",
+      "line": 1325,
+      "source": "? 'text-green-600 dark:text-green-400'",
+      "category": "brand",
+      "reason": "直播加载动画、频道选择与导航使用经典品牌色"
+    },
+    {
+      "file": "src/app/live/page.tsx",
+      "line": 1326,
+      "source": ": 'text-gray-700 hover:text-green-600 bg-black/5 dark:bg-white/5 dark:text-gray-300 dark:hover:text-green-400 hover:bg-black/3 dark:hover:bg-white/3'",
+      "category": "brand",
+      "reason": "直播加载动画、频道选择与导航使用经典品牌色"
+    },
+    {
+      "file": "src/app/live/page.tsx",
+      "line": 1388,
+      "source": "? 'text-green-500 dark:text-green-400'",
+      "category": "brand",
+      "reason": "直播加载动画、频道选择与导航使用经典品牌色"
+    },
+    {
+      "file": "src/app/live/page.tsx",
+      "line": 1389,
+      "source": ": 'text-gray-700 hover:text-green-600 dark:text-gray-300 dark:hover:text-green-400'",
+      "category": "brand",
+      "reason": "直播加载动画、频道选择与导航使用经典品牌色"
+    },
+    {
+      "file": "src/app/live/page.tsx",
+      "line": 1397,
+      "source": "<div className='absolute bottom-0 left-0 right-0 h-0.5 bg-green-500 dark:bg-green-400' />",
+      "category": "brand",
+      "reason": "直播加载动画、频道选择与导航使用经典品牌色"
+    },
+    {
+      "file": "src/app/live/page.tsx",
+      "line": 1419,
+      "source": "? 'bg-green-100 dark:bg-green-900/30 border border-green-300 dark:border-green-700'",
+      "category": "brand",
+      "reason": "直播加载动画、频道选择与导航使用经典品牌色"
+    },
+    {
+      "file": "src/app/live/page.tsx",
+      "line": 1478,
+      "source": "? 'bg-green-500/10 dark:bg-green-500/20 border-green-500/30 border'",
+      "category": "brand",
+      "reason": "直播加载动画、频道选择与导航使用经典品牌色"
+    },
+    {
+      "file": "src/app/live/page.tsx",
+      "line": 1499,
+      "source": "<div className='absolute top-2 right-2 w-2 h-2 bg-green-500 rounded-full'></div>",
+      "category": "status",
+      "reason": "频道列表展开及当前播放频道状态指示保留绿色"
+    },
+    {
+      "file": "src/app/login/page.tsx",
+      "line": 48,
+      "source": "? 'text-green-600 dark:text-green-400'",
+      "category": "status",
+      "reason": "版本检查确认已是最新版本，绿色表示正常状态"
+    },
+    {
+      "file": "src/app/login/page.tsx",
+      "line": 130,
+      "source": "<h1 className='text-green-600 tracking-tight text-center text-3xl font-extrabold mb-8 bg-clip-text drop-shadow-sm'>",
+      "category": "brand",
+      "reason": "登录标题、输入焦点与提交按钮使用经典品牌色"
+    },
+    {
+      "file": "src/app/login/page.tsx",
+      "line": 143,
+      "source": "className='block w-full rounded-lg border-0 py-3 px-4 text-gray-900 dark:text-gray-100 shadow-sm ring-1 ring-white/60 dark:ring-white/20 placeholder:text-gray-500 dark:placeholder:text-gray-400 focus:ring-2 focus:ring-green-500 focus:outline-none sm:text-base bg-white/60 dark:bg-zinc-800/60 backdrop-blur'",
+      "category": "brand",
+      "reason": "登录标题、输入焦点与提交按钮使用经典品牌色"
+    },
+    {
+      "file": "src/app/login/page.tsx",
+      "line": 159,
+      "source": "className='block w-full rounded-lg border-0 py-3 px-4 text-gray-900 dark:text-gray-100 shadow-sm ring-1 ring-white/60 dark:ring-white/20 placeholder:text-gray-500 dark:placeholder:text-gray-400 focus:ring-2 focus:ring-green-500 focus:outline-none sm:text-base bg-white/60 dark:bg-zinc-800/60 backdrop-blur'",
+      "category": "brand",
+      "reason": "登录标题、输入焦点与提交按钮使用经典品牌色"
+    },
+    {
+      "file": "src/app/login/page.tsx",
+      "line": 176,
+      "source": "className='inline-flex w-full justify-center rounded-lg bg-green-600 py-3 text-base font-semibold text-white shadow-lg transition-all duration-200 hover:from-green-600 hover:to-blue-600 disabled:cursor-not-allowed disabled:opacity-50'",
+      "category": "brand",
+      "reason": "登录标题、输入焦点与提交按钮使用经典品牌色"
+    },
+    {
+      "file": "src/app/page.tsx",
+      "line": 501,
+      "source": "<h3 className='text-2xl font-bold tracking-tight text-gray-800 dark:text-white border-b border-green-500 pb-1'>",
+      "category": "brand",
+      "reason": "首页公告和确认操作沿用经典品牌色"
+    },
+    {
+      "file": "src/app/page.tsx",
+      "line": 511,
+      "source": "<div className='relative overflow-hidden rounded-lg mb-4 bg-green-50 dark:bg-green-900/20'>",
+      "category": "brand",
+      "reason": "首页公告和确认操作沿用经典品牌色"
+    },
+    {
+      "file": "src/app/page.tsx",
+      "line": 512,
+      "source": "<div className='absolute inset-y-0 left-0 w-1.5 bg-green-500 dark:bg-green-400'></div>",
+      "category": "brand",
+      "reason": "首页公告和确认操作沿用经典品牌色"
+    },
+    {
+      "file": "src/app/page.tsx",
+      "line": 520,
+      "source": "className='w-full rounded-lg bg-gradient-to-r from-green-600 to-green-700 px-4 py-3 text-white font-medium shadow-md hover:shadow-lg hover:from-green-700 hover:to-green-800 dark:from-green-600 dark:to-green-700 dark:hover:from-green-700 dark:hover:to-green-800 transition-all duration-300 transform hover:-translate-y-0.5'",
+      "category": "brand",
+      "reason": "首页公告和确认操作沿用经典品牌色"
+    },
+    {
+      "file": "src/app/play/page.tsx",
+      "line": 1315,
+      "source": "theme: '#22c55e',",
+      "category": "brand",
+      "reason": "播放加载、重试、分类和控制元素使用经典品牌色"
+    },
+    {
+      "file": "src/app/play/page.tsx",
+      "line": 1680,
+      "source": "<div className='relative mx-auto w-24 h-24 bg-gradient-to-r from-green-500 to-emerald-600 rounded-2xl shadow-2xl flex items-center justify-center transform hover:scale-105 transition-transform duration-300'>",
+      "category": "brand",
+      "reason": "播放加载、重试、分类和控制元素使用经典品牌色"
+    },
+    {
+      "file": "src/app/play/page.tsx",
+      "line": 1688,
+      "source": "<div className='absolute -inset-2 bg-gradient-to-r from-green-500 to-emerald-600 rounded-2xl opacity-20 animate-spin'></div>",
+      "category": "brand",
+      "reason": "播放加载、重试、分类和控制元素使用经典品牌色"
+    },
+    {
+      "file": "src/app/play/page.tsx",
+      "line": 1693,
+      "source": "<div className='absolute top-2 left-2 w-2 h-2 bg-green-400 rounded-full animate-bounce'></div>",
+      "category": "brand",
+      "reason": "播放加载、重试、分类和控制元素使用经典品牌色"
+    },
+    {
+      "file": "src/app/play/page.tsx",
+      "line": 1695,
+      "source": "className='absolute top-4 right-4 w-1.5 h-1.5 bg-emerald-400 rounded-full animate-bounce'",
+      "category": "brand",
+      "reason": "播放加载、重试、分类和控制元素使用经典品牌色"
+    },
+    {
+      "file": "src/app/play/page.tsx",
+      "line": 1710,
+      "source": "? 'bg-green-500 scale-125'",
+      "category": "brand",
+      "reason": "播放加载、重试、分类和控制元素使用经典品牌色"
+    },
+    {
+      "file": "src/app/play/page.tsx",
+      "line": 1713,
+      "source": "? 'bg-green-500'",
+      "category": "brand",
+      "reason": "播放加载、重试、分类和控制元素使用经典品牌色"
+    },
+    {
+      "file": "src/app/play/page.tsx",
+      "line": 1719,
+      "source": "? 'bg-green-500 scale-125'",
+      "category": "brand",
+      "reason": "播放加载、重试、分类和控制元素使用经典品牌色"
+    },
+    {
+      "file": "src/app/play/page.tsx",
+      "line": 1721,
+      "source": "? 'bg-green-500'",
+      "category": "brand",
+      "reason": "播放加载、重试、分类和控制元素使用经典品牌色"
+    },
+    {
+      "file": "src/app/play/page.tsx",
+      "line": 1727,
+      "source": "? 'bg-green-500 scale-125'",
+      "category": "brand",
+      "reason": "播放加载、重试、分类和控制元素使用经典品牌色"
+    },
+    {
+      "file": "src/app/play/page.tsx",
+      "line": 1736,
+      "source": "className='h-full bg-gradient-to-r from-green-500 to-emerald-600 rounded-full transition-all duration-1000 ease-out'",
+      "category": "brand",
+      "reason": "播放加载、重试、分类和控制元素使用经典品牌色"
+    },
+    {
+      "file": "src/app/play/page.tsx",
+      "line": 1812,
+      "source": "className='w-full px-6 py-3 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-xl font-medium hover:from-green-600 hover:to-emerald-700 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl'",
+      "category": "brand",
+      "reason": "播放加载、重试、分类和控制元素使用经典品牌色"
+    },
+    {
+      "file": "src/app/play/page.tsx",
+      "line": 1879,
+      "source": ": 'bg-green-400'",
+      "category": "status",
+      "reason": "选集面板展开状态与橙色折叠状态对应，保留语义绿色"
+    },
+    {
+      "file": "src/app/play/page.tsx",
+      "line": 1908,
+      "source": "<div className='relative mx-auto w-24 h-24 bg-gradient-to-r from-green-500 to-emerald-600 rounded-2xl shadow-2xl flex items-center justify-center transform hover:scale-105 transition-transform duration-300'>",
+      "category": "brand",
+      "reason": "播放加载、重试、分类和控制元素使用经典品牌色"
+    },
+    {
+      "file": "src/app/play/page.tsx",
+      "line": 1911,
+      "source": "<div className='absolute -inset-2 bg-gradient-to-r from-green-500 to-emerald-600 rounded-2xl opacity-20 animate-spin'></div>",
+      "category": "brand",
+      "reason": "播放加载、重试、分类和控制元素使用经典品牌色"
+    },
+    {
+      "file": "src/app/play/page.tsx",
+      "line": 1916,
+      "source": "<div className='absolute top-2 left-2 w-2 h-2 bg-green-400 rounded-full animate-bounce'></div>",
+      "category": "brand",
+      "reason": "播放加载、重试、分类和控制元素使用经典品牌色"
+    },
+    {
+      "file": "src/app/play/page.tsx",
+      "line": 1918,
+      "source": "className='absolute top-4 right-4 w-1.5 h-1.5 bg-emerald-400 rounded-full animate-bounce'",
+      "category": "brand",
+      "reason": "播放加载、重试、分类和控制元素使用经典品牌色"
+    },
+    {
+      "file": "src/app/play/page.tsx",
+      "line": 1989,
+      "source": "<span className='text-green-600 font-semibold'>",
+      "category": "brand",
+      "reason": "播放加载、重试、分类和控制元素使用经典品牌色"
+    },
+    {
+      "file": "src/app/play/page.tsx",
+      "line": 2035,
+      "source": "<div className='bg-green-500 text-white text-xs font-bold w-8 h-8 rounded-full flex items-center justify-center shadow-md hover:bg-green-600 hover:scale-[1.1] transition-all duration-300 ease-out'>",
+      "category": "brand",
+      "reason": "播放加载、重试、分类和控制元素使用经典品牌色"
+    },
+    {
+      "file": "src/app/search/page.tsx",
+      "line": 657,
+      "source": "className='w-full h-12 rounded-lg bg-gray-50/80 py-3 pl-10 pr-12 text-sm text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-green-400 focus:bg-white border border-gray-200/50 shadow-sm dark:bg-gray-800 dark:text-gray-300 dark:placeholder-gray-500 dark:focus:bg-gray-700 dark:border-gray-700'",
+      "category": "brand",
+      "reason": "搜索焦点、加载、筛选开关与返回顶部使用经典品牌色"
+    },
+    {
+      "file": "src/app/search/page.tsx",
+      "line": 715,
+      "source": "<span className='inline-block h-3 w-3 border-2 border-gray-300 border-t-green-500 rounded-full animate-spin'></span>",
+      "category": "brand",
+      "reason": "搜索焦点、加载、筛选开关与返回顶部使用经典品牌色"
+    },
+    {
+      "file": "src/app/search/page.tsx",
+      "line": 747,
+      "source": "<div className='w-9 h-5 bg-gray-300 rounded-full peer-checked:bg-green-500 transition-colors dark:bg-gray-600'></div>",
+      "category": "brand",
+      "reason": "搜索焦点、加载、筛选开关与返回顶部使用经典品牌色"
+    },
+    {
+      "file": "src/app/search/page.tsx",
+      "line": 755,
+      "source": "<div className='animate-spin rounded-full h-8 w-8 border-b-2 border-green-500'></div>",
+      "category": "brand",
+      "reason": "搜索焦点、加载、筛选开关与返回顶部使用经典品牌色"
+    },
+    {
+      "file": "src/app/search/page.tsx",
+      "line": 892,
+      "source": "className={`fixed bottom-20 md:bottom-6 right-6 z-[500] w-12 h-12 bg-green-500/90 hover:bg-green-500 text-white rounded-full shadow-lg backdrop-blur-sm transition-all duration-300 ease-in-out flex items-center justify-center group ${showBackToTop",
+      "category": "brand",
+      "reason": "搜索焦点、加载、筛选开关与返回顶部使用经典品牌色"
+    },
+    {
+      "file": "src/components/DataMigration.tsx",
+      "line": 58,
+      "source": "return <CheckCircle className=\"w-12 h-12 text-green-500\" />;",
+      "category": "status",
+      "reason": "迁移成功与已选迁移状态保持绿色，避免被误识别为失败"
+    },
+    {
+      "file": "src/components/DataMigration.tsx",
+      "line": 71,
+      "source": "return 'bg-green-50 dark:bg-green-900/20 border-green-200 dark:border-green-800';",
+      "category": "status",
+      "reason": "迁移成功与已选迁移状态保持绿色，避免被误识别为失败"
+    },
+    {
+      "file": "src/components/DataMigration.tsx",
+      "line": 430,
+      "source": "<span className=\"ml-auto text-xs text-green-600 dark:text-green-400 font-normal\">",
+      "category": "status",
+      "reason": "迁移成功与已选迁移状态保持绿色，避免被误识别为失败"
+    },
+    {
+      "file": "src/components/EpgScrollableRow.tsx",
+      "line": 199,
+      "source": "className=\"flex items-center gap-1 sm:gap-1.5 px-2 sm:px-2.5 py-1.5 sm:py-2 text-xs font-medium text-gray-600 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400 bg-gray-300/50 dark:bg-gray-800 hover:bg-green-50 dark:hover:bg-green-900/20 rounded-lg border border-gray-200 dark:border-gray-700 hover:border-green-300 dark:hover:border-green-700 transition-all duration-200\"",
+      "category": "brand",
+      "reason": "节目浏览操作沿用经典品牌色"
+    },
+    {
+      "file": "src/components/EpgScrollableRow.tsx",
+      "line": 228,
+      "source": "? 'bg-green-500/10 dark:bg-green-500/20 border-green-500/30'",
+      "category": "status",
+      "reason": "正在播出的节目标题和脉冲圆点表示直播中，必须保留绿色"
+    },
+    {
+      "file": "src/components/EpgScrollableRow.tsx",
+      "line": 239,
+      "source": "? 'text-green-600 dark:text-green-400'",
+      "category": "status",
+      "reason": "正在播出的节目标题和脉冲圆点表示直播中，必须保留绿色"
+    },
+    {
+      "file": "src/components/EpgScrollableRow.tsx",
+      "line": 256,
+      "source": "? 'text-green-900 dark:text-green-100'",
+      "category": "status",
+      "reason": "正在播出的节目标题和脉冲圆点表示直播中，必须保留绿色"
+    },
+    {
+      "file": "src/components/EpgScrollableRow.tsx",
+      "line": 280,
+      "source": "<div className=\"w-1.5 h-1.5 sm:w-2 sm:h-2 bg-green-500 rounded-full animate-pulse\"></div>",
+      "category": "status",
+      "reason": "正在播出的节目标题和脉冲圆点表示直播中，必须保留绿色"
+    },
+    {
+      "file": "src/components/EpgScrollableRow.tsx",
+      "line": 281,
+      "source": "<span className=\"text-xs text-green-600 dark:text-green-400 font-medium\">",
+      "category": "status",
+      "reason": "正在播出的节目标题和脉冲圆点表示直播中，必须保留绿色"
+    },
+    {
+      "file": "src/components/EpisodeSelector.tsx",
+      "line": 382,
+      "source": "? 'text-green-600 dark:text-green-400'",
+      "category": "brand",
+      "reason": "选集与来源切换、加载和导航使用经典品牌色"
+    },
+    {
+      "file": "src/components/EpisodeSelector.tsx",
+      "line": 383,
+      "source": ": 'text-gray-700 hover:text-green-600 bg-black/5 dark:bg-white/5 dark:text-gray-300 dark:hover:text-green-400 hover:bg-black/3 dark:hover:bg-white/3'",
+      "category": "brand",
+      "reason": "选集与来源切换、加载和导航使用经典品牌色"
+    },
+    {
+      "file": "src/components/EpisodeSelector.tsx",
+      "line": 395,
+      "source": "? 'text-green-600 dark:text-green-400'",
+      "category": "brand",
+      "reason": "选集与来源切换、加载和导航使用经典品牌色"
+    },
+    {
+      "file": "src/components/EpisodeSelector.tsx",
+      "line": 396,
+      "source": ": 'text-gray-700 hover:text-green-600 bg-black/5 dark:bg-white/5 dark:text-gray-300 dark:hover:text-green-400 hover:bg-black/3 dark:hover:bg-white/3'",
+      "category": "brand",
+      "reason": "选集与来源切换、加载和导航使用经典品牌色"
+    },
+    {
+      "file": "src/components/EpisodeSelector.tsx",
+      "line": 428,
+      "source": "? 'text-green-500 dark:text-green-400'",
+      "category": "brand",
+      "reason": "选集与来源切换、加载和导航使用经典品牌色"
+    },
+    {
+      "file": "src/components/EpisodeSelector.tsx",
+      "line": 429,
+      "source": ": 'text-gray-700 hover:text-green-600 dark:text-gray-300 dark:hover:text-green-400'",
+      "category": "brand",
+      "reason": "选集与来源切换、加载和导航使用经典品牌色"
+    },
+    {
+      "file": "src/components/EpisodeSelector.tsx",
+      "line": 435,
+      "source": "<div className='absolute bottom-0 left-0 right-0 h-0.5 bg-green-500 dark:bg-green-400' />",
+      "category": "brand",
+      "reason": "选集与来源切换、加载和导航使用经典品牌色"
+    },
+    {
+      "file": "src/components/EpisodeSelector.tsx",
+      "line": 444,
+      "source": "className='flex-shrink-0 w-8 h-8 rounded-md flex items-center justify-center text-gray-700 hover:text-green-600 hover:bg-gray-100 dark:text-gray-300 dark:hover:text-green-400 dark:hover:bg-white/20 transition-colors transform translate-y-[-4px]'",
+      "category": "brand",
+      "reason": "选集与来源切换、加载和导航使用经典品牌色"
+    },
+    {
+      "file": "src/components/EpisodeSelector.tsx",
+      "line": 483,
+      "source": "? 'bg-green-500 text-white shadow-lg shadow-green-500/25 dark:bg-green-600'",
+      "category": "brand",
+      "reason": "选集与来源切换、加载和导航使用经典品牌色"
+    },
+    {
+      "file": "src/components/EpisodeSelector.tsx",
+      "line": 511,
+      "source": "<div className='animate-spin rounded-full h-8 w-8 border-b-2 border-green-500'></div>",
+      "category": "brand",
+      "reason": "选集与来源切换、加载和导航使用经典品牌色"
+    },
+    {
+      "file": "src/components/EpisodeSelector.tsx",
+      "line": 571,
+      "source": "? 'bg-green-500/10 dark:bg-green-500/20 border-green-500/30 border'",
+      "category": "brand",
+      "reason": "选集与来源切换、加载和导航使用经典品牌色"
+    },
+    {
+      "file": "src/components/EpisodeSelector.tsx",
+      "line": 628,
+      "source": "? 'text-green-600 dark:text-green-400'",
+      "category": "status",
+      "reason": "高清质量与加载速度为正向质量状态，必须保留绿色"
+    },
+    {
+      "file": "src/components/EpisodeSelector.tsx",
+      "line": 666,
+      "source": "<div className='text-green-600 dark:text-green-400 font-medium text-xs'>",
+      "category": "status",
+      "reason": "高清质量与加载速度为正向质量状态，必须保留绿色"
+    },
+    {
+      "file": "src/components/EpisodeSelector.tsx",
+      "line": 697,
+      "source": "className='w-full text-center text-xs text-gray-500 dark:text-gray-400 hover:text-green-500 dark:hover:text-green-400 transition-colors py-2'",
+      "category": "brand",
+      "reason": "选集与来源切换、加载和导航使用经典品牌色"
+    },
+    {
+      "file": "src/components/MobileActionSheet.tsx",
+      "line": 146,
+      "source": "return 'text-green-600 dark:text-green-400';",
+      "category": "brand",
+      "reason": "主操作明确标为 primary，沿用经典品牌色"
+    },
+    {
+      "file": "src/components/MobileActionSheet.tsx",
+      "line": 157,
+      "source": "return 'hover:bg-green-50/50 dark:hover:bg-green-900/10';",
+      "category": "brand",
+      "reason": "主操作明确标为 primary，沿用经典品牌色"
+    },
+    {
+      "file": "src/components/MobileBottomNav.tsx",
+      "line": 105,
+      "source": "? 'text-green-600 dark:text-green-400'",
+      "category": "brand",
+      "reason": "底部导航选中项沿用经典品牌色"
+    },
+    {
+      "file": "src/components/MobileBottomNav.tsx",
+      "line": 112,
+      "source": "? 'text-green-600 dark:text-green-400'",
+      "category": "brand",
+      "reason": "底部导航选中项沿用经典品牌色"
+    },
+    {
+      "file": "src/components/MobileHeader.tsx",
+      "line": 54,
+      "source": "className='text-2xl font-bold text-green-600 tracking-tight hover:opacity-80 transition-opacity'",
+      "category": "brand",
+      "reason": "站点文字标识沿用经典品牌色"
+    },
+    {
+      "file": "src/components/MultiLevelSelector.tsx",
+      "line": 522,
+      "source": ": 'text-green-600 dark:text-green-400 cursor-default'",
+      "category": "brand",
+      "reason": "筛选面包屑和已选标签沿用经典品牌色"
+    },
+    {
+      "file": "src/components/MultiLevelSelector.tsx",
+      "line": 525,
+      "source": ": 'text-green-600 hover:text-green-700 dark:text-green-400 dark:hover:text-green-300 cursor-pointer'",
+      "category": "brand",
+      "reason": "筛选面包屑和已选标签沿用经典品牌色"
+    },
+    {
+      "file": "src/components/MultiLevelSelector.tsx",
+      "line": 575,
+      "source": "? 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400 border border-green-200 dark:border-green-700'",
+      "category": "brand",
+      "reason": "筛选面包屑和已选标签沿用经典品牌色"
+    },
+    {
+      "file": "src/components/SearchResultFilter.tsx",
+      "line": 157,
+      "source": ": 'text-green-600 dark:text-green-400 cursor-default'",
+      "category": "brand",
+      "reason": "搜索筛选选中项沿用经典品牌色"
+    },
+    {
+      "file": "src/components/SearchResultFilter.tsx",
+      "line": 160,
+      "source": ": 'text-green-600 hover:text-green-700 dark:text-green-400 dark:hover:text-green-300 cursor-pointer'",
+      "category": "brand",
+      "reason": "搜索筛选选中项沿用经典品牌色"
+    },
+    {
+      "file": "src/components/SearchResultFilter.tsx",
+      "line": 192,
+      "source": ": 'text-green-600 hover:text-green-700 dark:text-green-400 dark:hover:text-green-300 cursor-pointer'",
+      "category": "brand",
+      "reason": "搜索筛选选中项沿用经典品牌色"
+    },
+    {
+      "file": "src/components/SearchResultFilter.tsx",
+      "line": 227,
+      "source": "? 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400 border border-green-200 dark:border-green-700'",
+      "category": "brand",
+      "reason": "搜索筛选选中项沿用经典品牌色"
+    },
+    {
+      "file": "src/components/Sidebar.tsx",
+      "line": 37,
+      "source": "<span className='text-2xl font-bold text-green-600 tracking-tight'>",
+      "category": "brand",
+      "reason": "站点标题与导航选中项沿用经典品牌色"
+    },
+    {
+      "file": "src/components/Sidebar.tsx",
+      "line": 219,
+      "source": "className={`group flex items-center rounded-lg px-2 py-2 pl-4 text-gray-700 hover:bg-gray-100/30 hover:text-green-600 data-[active=true]:bg-green-500/20 data-[active=true]:text-green-700 font-medium transition-colors duration-200 min-h-[40px] dark:text-gray-300 dark:hover:text-green-400 dark:data-[active=true]:bg-green-500/10 dark:data-[active=true]:text-green-400 ${isCollapsed ? 'w-full max-w-none mx-0' : 'mx-0'",
+      "category": "brand",
+      "reason": "站点标题与导航选中项沿用经典品牌色"
+    },
+    {
+      "file": "src/components/Sidebar.tsx",
+      "line": 223,
+      "source": "<Home className='h-4 w-4 text-gray-500 group-hover:text-green-600 data-[active=true]:text-green-700 dark:text-gray-400 dark:group-hover:text-green-400 dark:data-[active=true]:text-green-400' />",
+      "category": "brand",
+      "reason": "站点标题与导航选中项沿用经典品牌色"
+    },
+    {
+      "file": "src/components/Sidebar.tsx",
+      "line": 239,
+      "source": "className={`group flex items-center rounded-lg px-2 py-2 pl-4 text-gray-700 hover:bg-gray-100/30 hover:text-green-600 data-[active=true]:bg-green-500/20 data-[active=true]:text-green-700 font-medium transition-colors duration-200 min-h-[40px] dark:text-gray-300 dark:hover:text-green-400 dark:data-[active=true]:bg-green-500/10 dark:data-[active=true]:text-green-400 ${isCollapsed ? 'w-full max-w-none mx-0' : 'mx-0'",
+      "category": "brand",
+      "reason": "站点标题与导航选中项沿用经典品牌色"
+    },
+    {
+      "file": "src/components/Sidebar.tsx",
+      "line": 243,
+      "source": "<Search className='h-4 w-4 text-gray-500 group-hover:text-green-600 data-[active=true]:text-green-700 dark:text-gray-400 dark:group-hover:text-green-400 dark:data-[active=true]:text-green-400' />",
+      "category": "brand",
+      "reason": "站点标题与导航选中项沿用经典品牌色"
+    },
+    {
+      "file": "src/components/Sidebar.tsx",
+      "line": 275,
+      "source": "className={`group flex items-center rounded-lg px-2 py-2 pl-4 text-sm text-gray-700 hover:bg-gray-100/30 hover:text-green-600 data-[active=true]:bg-green-500/20 data-[active=true]:text-green-700 transition-colors duration-200 min-h-[40px] dark:text-gray-300 dark:hover:text-green-400 dark:data-[active=true]:bg-green-500/10 dark:data-[active=true]:text-green-400 ${isCollapsed ? 'w-full max-w-none mx-0' : 'mx-0'",
+      "category": "brand",
+      "reason": "站点标题与导航选中项沿用经典品牌色"
+    },
+    {
+      "file": "src/components/Sidebar.tsx",
+      "line": 279,
+      "source": "<Icon className='h-4 w-4 text-gray-500 group-hover:text-green-600 data-[active=true]:text-green-700 dark:text-gray-400 dark:group-hover:text-green-400 dark:data-[active=true]:text-green-400' />",
+      "category": "brand",
+      "reason": "站点标题与导航选中项沿用经典品牌色"
+    },
+    {
+      "file": "src/components/UserMenu.tsx",
+      "line": 502,
+      "source": ": 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300'",
+      "category": "status",
+      "reason": "用户角色与版本正常状态使用绿色标识，不随品牌改变"
+    },
+    {
+      "file": "src/components/UserMenu.tsx",
+      "line": 585,
+      "source": "? 'bg-green-400'",
+      "category": "status",
+      "reason": "用户角色与版本正常状态使用绿色标识，不随品牌改变"
+    },
+    {
+      "file": "src/components/UserMenu.tsx",
+      "line": 670,
+      "source": "className='w-full px-3 py-2.5 pr-10 border border-gray-300 dark:border-gray-600 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500 transition-all duration-200 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 shadow-sm hover:border-gray-400 dark:hover:border-gray-500 text-left'",
+      "category": "brand",
+      "reason": "受保护用户菜单的选项、开关和提交操作沿用经典品牌色"
+    },
+    {
+      "file": "src/components/UserMenu.tsx",
+      "line": 699,
+      "source": "? 'bg-green-50 dark:bg-green-900/20 text-green-600 dark:text-green-400'",
+      "category": "brand",
+      "reason": "受保护用户菜单的选项、开关和提交操作沿用经典品牌色"
+    },
+    {
+      "file": "src/components/UserMenu.tsx",
+      "line": 705,
+      "source": "<Check className='w-4 h-4 text-green-600 dark:text-green-400 flex-shrink-0 ml-2' />",
+      "category": "brand",
+      "reason": "受保护用户菜单的选项、开关和提交操作沿用经典品牌色"
+    },
+    {
+      "file": "src/components/UserMenu.tsx",
+      "line": 745,
+      "source": "className='w-full px-3 py-2.5 border border-gray-300 dark:border-gray-600 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500 transition-all duration-200 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 shadow-sm hover:border-gray-400 dark:hover:border-gray-500'",
+      "category": "brand",
+      "reason": "受保护用户菜单的选项、开关和提交操作沿用经典品牌色"
+    },
+    {
+      "file": "src/components/UserMenu.tsx",
+      "line": 775,
+      "source": "className='w-full px-3 py-2.5 pr-10 border border-gray-300 dark:border-gray-600 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500 transition-all duration-200 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 shadow-sm hover:border-gray-400 dark:hover:border-gray-500 text-left'",
+      "category": "brand",
+      "reason": "受保护用户菜单的选项、开关和提交操作沿用经典品牌色"
+    },
+    {
+      "file": "src/components/UserMenu.tsx",
+      "line": 804,
+      "source": "? 'bg-green-50 dark:bg-green-900/20 text-green-600 dark:text-green-400'",
+      "category": "brand",
+      "reason": "受保护用户菜单的选项、开关和提交操作沿用经典品牌色"
+    },
+    {
+      "file": "src/components/UserMenu.tsx",
+      "line": 810,
+      "source": "<Check className='w-4 h-4 text-green-600 dark:text-green-400 flex-shrink-0 ml-2' />",
+      "category": "brand",
+      "reason": "受保护用户菜单的选项、开关和提交操作沿用经典品牌色"
+    },
+    {
+      "file": "src/components/UserMenu.tsx",
+      "line": 853,
+      "source": "className='w-full px-3 py-2.5 border border-gray-300 dark:border-gray-600 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500 transition-all duration-200 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 shadow-sm hover:border-gray-400 dark:hover:border-gray-500'",
+      "category": "brand",
+      "reason": "受保护用户菜单的选项、开关和提交操作沿用经典品牌色"
+    },
+    {
+      "file": "src/components/UserMenu.tsx",
+      "line": 884,
+      "source": "<div className='w-11 h-6 bg-gray-300 rounded-full peer-checked:bg-green-500 transition-colors dark:bg-gray-600'></div>",
+      "category": "brand",
+      "reason": "受保护用户菜单的选项、开关和提交操作沿用经典品牌色"
+    },
+    {
+      "file": "src/components/UserMenu.tsx",
+      "line": 908,
+      "source": "<div className='w-11 h-6 bg-gray-300 rounded-full peer-checked:bg-green-500 transition-colors dark:bg-gray-600'></div>",
+      "category": "brand",
+      "reason": "受保护用户菜单的选项、开关和提交操作沿用经典品牌色"
+    },
+    {
+      "file": "src/components/UserMenu.tsx",
+      "line": 932,
+      "source": "<div className='w-11 h-6 bg-gray-300 rounded-full peer-checked:bg-green-500 transition-colors dark:bg-gray-600'></div>",
+      "category": "brand",
+      "reason": "受保护用户菜单的选项、开关和提交操作沿用经典品牌色"
+    },
+    {
+      "file": "src/components/UserMenu.tsx",
+      "line": 956,
+      "source": "<div className='w-11 h-6 bg-gray-300 rounded-full peer-checked:bg-green-500 transition-colors dark:bg-gray-600'></div>",
+      "category": "brand",
+      "reason": "受保护用户菜单的选项、开关和提交操作沿用经典品牌色"
+    },
+    {
+      "file": "src/components/UserMenu.tsx",
+      "line": 1033,
+      "source": "className='w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-colors bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400'",
+      "category": "brand",
+      "reason": "受保护用户菜单的选项、开关和提交操作沿用经典品牌色"
+    },
+    {
+      "file": "src/components/UserMenu.tsx",
+      "line": 1048,
+      "source": "className='w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-colors bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400'",
+      "category": "brand",
+      "reason": "受保护用户菜单的选项、开关和提交操作沿用经典品牌色"
+    },
+    {
+      "file": "src/components/UserMenu.tsx",
+      "line": 1075,
+      "source": "className='flex-1 px-4 py-2 text-sm font-medium text-white bg-green-600 hover:bg-green-700 dark:bg-green-700 dark:hover:bg-green-600 rounded-md transition-colors disabled:opacity-50 disabled:cursor-not-allowed'",
+      "category": "brand",
+      "reason": "受保护用户菜单的选项、开关和提交操作沿用经典品牌色"
+    },
+    {
+      "file": "src/components/VersionPanel.tsx",
+      "line": 224,
+      "source": "<h5 className='text-sm font-medium text-green-700 dark:text-green-400 mb-2 flex items-center gap-1'>",
+      "category": "brand",
+      "reason": "版本展示操作与新增内容列表沿用经典品牌色"
+    },
+    {
+      "file": "src/components/VersionPanel.tsx",
+      "line": 234,
+      "source": "<span className='w-1.5 h-1.5 bg-green-500 rounded-full mt-2 flex-shrink-0'></span>",
+      "category": "brand",
+      "reason": "版本展示操作与新增内容列表沿用经典品牌色"
+    },
+    {
+      "file": "src/components/VersionPanel.tsx",
+      "line": 324,
+      "source": "<span className='px-2 sm:px-3 py-1 text-xs sm:text-sm font-medium bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300 rounded-full'>",
+      "category": "status",
+      "reason": "最新版本与更新成功提示保留绿色，区分警告和失败"
+    },
+    {
+      "file": "src/components/VersionPanel.tsx",
+      "line": 380,
+      "source": "<div className='bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 border border-green-200 dark:border-green-800 rounded-lg p-3 sm:p-4'>",
+      "category": "status",
+      "reason": "最新版本与更新成功提示保留绿色，区分警告和失败"
+    },
+    {
+      "file": "src/components/VersionPanel.tsx",
+      "line": 383,
+      "source": "<div className='w-8 h-8 sm:w-10 sm:h-10 bg-green-100 dark:bg-green-800/40 rounded-full flex items-center justify-center flex-shrink-0'>",
+      "category": "status",
+      "reason": "最新版本与更新成功提示保留绿色，区分警告和失败"
+    },
+    {
+      "file": "src/components/VersionPanel.tsx",
+      "line": 384,
+      "source": "<CheckCircle className='w-4 h-4 sm:w-5 sm:h-5 text-green-600 dark:text-green-400' />",
+      "category": "status",
+      "reason": "最新版本与更新成功提示保留绿色，区分警告和失败"
+    },
+    {
+      "file": "src/components/VersionPanel.tsx",
+      "line": 387,
+      "source": "<h4 className='text-sm sm:text-base font-semibold text-green-800 dark:text-green-200'>",
+      "category": "status",
+      "reason": "最新版本与更新成功提示保留绿色，区分警告和失败"
+    },
+    {
+      "file": "src/components/VersionPanel.tsx",
+      "line": 390,
+      "source": "<p className='text-xs sm:text-sm text-green-700 dark:text-green-300 break-all'>",
+      "category": "status",
+      "reason": "最新版本与更新成功提示保留绿色，区分警告和失败"
+    },
+    {
+      "file": "src/components/VersionPanel.tsx",
+      "line": 399,
+      "source": "className='inline-flex items-center justify-center gap-2 px-3 py-2 bg-green-600 hover:bg-green-700 text-white text-xs sm:text-sm rounded-lg transition-colors shadow-sm w-full'",
+      "category": "brand",
+      "reason": "版本展示操作与新增内容列表沿用经典品牌色"
+    },
+    {
+      "file": "src/components/VersionPanel.tsx",
+      "line": 470,
+      "source": "<h5 className='text-sm font-medium text-green-600 dark:text-green-400 mb-2 flex items-center gap-1'>",
+      "category": "brand",
+      "reason": "版本展示操作与新增内容列表沿用经典品牌色"
+    },
+    {
+      "file": "src/components/VersionPanel.tsx",
+      "line": 480,
+      "source": "<span className='w-1.5 h-1.5 bg-green-400 rounded-full mt-2 flex-shrink-0'></span>",
+      "category": "brand",
+      "reason": "版本展示操作与新增内容列表沿用经典品牌色"
+    },
+    {
+      "file": "src/components/VideoCard.tsx",
+      "line": 616,
+      "source": "className='text-white fill-transparent transition-all duration-300 ease-out hover:fill-green-500 hover:scale-[1.1]'",
+      "category": "brand",
+      "reason": "经典影片卡片的操作、集数、标题和观看进度保持原样"
+    },
+    {
+      "file": "src/components/VideoCard.tsx",
+      "line": 721,
+      "source": "className='absolute top-2 right-2 bg-green-500 text-white text-xs font-semibold px-2 py-1 rounded-md shadow-md transition-all duration-300 ease-out group-hover:scale-110'",
+      "category": "brand",
+      "reason": "经典影片卡片的操作、集数、标题和观看进度保持原样"
+    },
+    {
+      "file": "src/components/VideoCard.tsx",
+      "line": 761,
+      "source": "className='bg-green-500 text-white text-xs font-bold w-7 h-7 rounded-full flex items-center justify-center shadow-md hover:bg-green-600 hover:scale-[1.1] transition-all duration-300 ease-out'",
+      "category": "brand",
+      "reason": "经典影片卡片的操作、集数、标题和观看进度保持原样"
+    },
+    {
+      "file": "src/components/VideoCard.tsx",
+      "line": 919,
+      "source": "className='h-full bg-green-500 transition-all duration-500 ease-out'",
+      "category": "brand",
+      "reason": "经典影片卡片的操作、集数、标题和观看进度保持原样"
+    },
+    {
+      "file": "src/components/VideoCard.tsx",
+      "line": 956,
+      "source": "className='block text-sm font-semibold truncate text-gray-900 dark:text-gray-100 transition-colors duration-300 ease-in-out group-hover:text-green-600 dark:group-hover:text-green-400 peer'",
+      "category": "brand",
+      "reason": "经典影片卡片的操作、集数、标题和观看进度保持原样"
+    },
+    {
+      "file": "src/components/VideoCard.tsx",
+      "line": 1007,
+      "source": "className='inline-block border rounded px-2 py-0.5 border-gray-500/60 dark:border-gray-400/60 transition-all duration-300 ease-in-out group-hover:border-green-500/60 group-hover:text-green-600 dark:group-hover:text-green-400'",
+      "category": "brand",
+      "reason": "经典影片卡片的操作、集数、标题和观看进度保持原样"
+    },
+    {
+      "file": "src/components/WeekdaySelector.tsx",
+      "line": 60,
+      "source": "? 'text-green-600 dark:text-green-400 font-semibold'",
+      "category": "brand",
+      "reason": "日期选中项沿用经典品牌色"
+    },
+    {
+      "file": "src/styles/colors.css",
+      "line": 269,
+      "source": "--color-primary-500: rgb(var(--tw-color-primary-500)); /* #22c55e */",
+      "category": "brand",
+      "reason": "既有主色调色板定义供经典主题使用，不参与 Netflix 全局重映射"
+    },
+    {
+      "file": "src/styles/colors.css",
+      "line": 270,
+      "source": "--color-primary-600: rgb(var(--tw-color-primary-600)); /* #16a34a */",
+      "category": "brand",
+      "reason": "既有主色调色板定义供经典主题使用，不参与 Netflix 全局重映射"
+    },
+    {
+      "file": "src/styles/colors.css",
+      "line": 294,
+      "source": "--color-primary-500: rgb(var(--tw-color-primary-500)); /* #10b981 */",
+      "category": "brand",
+      "reason": "既有主色调色板定义供经典主题使用，不参与 Netflix 全局重映射"
+    },
+    {
+      "file": "src/features/theme/core/constants.ts",
+      "line": 15,
+      "source": "classicBrand: '#22c55e',",
+      "category": "brand",
+      "reason": "经典播放器品牌色统一定义，Netflix 切换仅改变品牌而保留语义状态"
+    },
+    {
+      "file": "src/features/theme/core/useArtPlayerTheme.ts",
+      "line": 14,
+      "source": ": '#22c55e';",
+      "category": "brand",
+      "reason": "播放器首次创建时读取经典品牌色，不改变直播健康和加载速度状态"
+    },
+    {
+      "file": "src/features/theme/styles/tokens.css",
+      "line": 13,
+      "source": "--theme-success: #22c55e;",
+      "category": "status",
+      "reason": "Netflix 成功状态明确保持绿色，与品牌红和危险红区分"
+    }
+  ]
+}

@@ -1,3 +1,7 @@
+@import '../features/theme/styles/tokens.css';
+@import '../features/theme/styles/netflix.css';
+@import '../features/theme/styles/compatibility.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

@@ -46,3 +46,6 @@ public/manifest.json
 
 # 本地上下文记忆，禁止推送
 memory/
+
+# 本地方案与生成文档，禁止推送
+/docs/

@@ -1,0 +1,107 @@
+[
+  {
+    "hook": "data-theme-rail",
+    "file": "src/features/theme/components/ContentRail.tsx",
+    "fragments": [
+      "data-theme-rail",
+      "<ScrollableRow scrollDistance={scrollDistance}>"
+    ],
+    "reason": "主题轨道包裹原始滚动组件"
+  },
+  {
+    "hook": "data-theme-scope=auth",
+    "file": "src/features/theme/components/ThemeShell.tsx",
+    "fragments": [
+      "data-theme-scope={scope}",
+      "const scope = route === 'player' ? 'consumer' : route;"
+    ],
+    "reason": "登录页只调整表单品牌色"
+  },
+  {
+    "hook": "data-theme-scope=admin",
+    "file": "src/features/theme/components/ThemeShell.tsx",
+    "fragments": ["data-theme-scope={scope}"],
+    "reason": "后台保留工具布局与状态色"
+  },
+  {
+    "hook": "data-theme-scope=consumer",
+    "file": "src/features/theme/components/ThemeShell.tsx",
+    "fragments": ["data-theme-scope={scope}"],
+    "reason": "消费页主题表面"
+  },
+  {
+    "hook": "data-theme-route=consumer",
+    "file": "src/features/theme/components/ThemeShell.tsx",
+    "fragments": [
+      "data-theme-route={route}",
+      "const route = getThemeRoutePolicy('netflix', pathname);"
+    ],
+    "reason": "只在消费路由替换导航"
+  },
+  {
+    "hook": "data-theme-route=player",
+    "file": "src/features/theme/components/ThemeShell.tsx",
+    "fragments": ["data-theme-route={route}"],
+    "reason": "播放页保持导航与实例"
+  },
+  {
+    "hook": "data-theme-layout=page",
+    "file": "src/components/PageLayout.tsx",
+    "fragments": [
+      "data-theme-layout='page'",
+      "<NetflixShell activePath={activePath} />",
+      "<MobileHeader showBackButton="
+    ],
+    "reason": "头部布局插槽及相邻移动导航"
+  },
+  {
+    "hook": "data-theme-navigation",
+    "file": "src/components/PageLayout.tsx",
+    "fragments": [
+      "data-theme-navigation='sidebar'",
+      "data-theme-navigation='utilities'",
+      "data-theme-navigation='mobile'"
+    ],
+    "reason": "导航隐藏契约"
+  },
+  {
+    "hook": "data-theme-content=main",
+    "file": "src/components/PageLayout.tsx",
+    "fragments": ["data-theme-content='main'"],
+    "reason": "内容区域留白"
+  },
+  {
+    "hook": "data-theme-home",
+    "file": "src/app/page.tsx",
+    "fragments": ["data-theme-home", "max-w-[95%] mx-auto"],
+    "reason": "首页展示容器"
+  },
+  {
+    "hook": "data-theme-home-tabs",
+    "file": "src/app/page.tsx",
+    "fragments": ["data-theme-home-tabs"],
+    "reason": "首页及收藏标签排版"
+  },
+  {
+    "file": "src/components/ScrollableRow.tsx",
+    "fragments": [
+      "className='relative'",
+      "className='flex space-x-6 overflow-x-auto scrollbar-hide py-1 sm:py-2 pb-12 sm:pb-14 px-4 sm:px-6'"
+    ],
+    "reason": "原始滚动节点结构改变必须重新验证主题适配"
+  },
+  {
+    "file": "src/app/login/page.tsx",
+    "fragments": [
+      "<h1 className='text-green-600",
+      "<form onSubmit={handleSubmit}",
+      "type='submit'"
+    ],
+    "reason": "登录品牌标题及提交按钮契约，不匹配成功提示"
+  },
+  {
+    "file": "src/components/ThemeToggle.tsx",
+    "fragments": ["aria-label='Toggle theme'"],
+    "reason": "固定暗色时隐藏旧明暗开关"
+  }
+]

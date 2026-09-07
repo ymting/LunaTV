@@ -27,6 +27,8 @@ import { getVideoResolutionFromM3u8, processImageUrl } from '@/lib/utils';
 import EpisodeSelector from '@/components/EpisodeSelector';
 import PageLayout from '@/components/PageLayout';
 
+import { getPlayerTheme, useArtPlayerTheme } from '@/features/theme/core/useArtPlayerTheme';
+
 // 扩展 HTMLVideoElement 类型以支持 hls 属性
 declare global {
   interface HTMLVideoElement {
@@ -201,6 +203,7 @@ function PlayPageClient() {
   const lastSaveTimeRef = useRef<number>(0);
 
   const artPlayerRef = useRef<any>(null);
+  useArtPlayerTheme(artPlayerRef);
   const artRef = useRef<HTMLDivElement | null>(null);
 
   // Wake Lock 相关
@@ -1312,7 +1315,7 @@ function PlayPageClient() {
         playsInline: true,
         autoPlayback: false,
         airplay: true,
-        theme: '#22c55e',
+        theme: getPlayerTheme(),
         lang: 'zh-cn',
         hotkey: false,
         fastForward: true,

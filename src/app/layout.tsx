@@ -7,6 +7,13 @@ import './globals.css';
 
 import { getConfig } from '@/lib/config';
 
+import ThemeShell from '@/features/theme/components/ThemeShell';
+import {
+  getThemeEnabled,
+  ThemeBootstrap,
+} from '@/features/theme/core/ThemeBootstrap';
+import { ThemePresetProvider } from '@/features/theme/core/ThemePresetProvider';
+
 import { GlobalErrorIndicator } from '../components/GlobalErrorIndicator';
 import { SiteProvider } from '../components/SiteProvider';
 import { ThemeProvider } from '../components/ThemeProvider';
@@ -41,6 +48,7 @@ export default async function RootLayout({
 }) {
   const storageType = process.env.NEXT_PUBLIC_STORAGE_TYPE || 'localstorage';
 
+  const netflixEnabled = getThemeEnabled(process.env);
   let siteName = process.env.NEXT_PUBLIC_SITE_NAME || 'MoonTV';
   let announcement =
     process.env.ANNOUNCEMENT ||
@@ -97,6 +105,7 @@ export default async function RootLayout({
   return (
     <html lang='zh-CN' suppressHydrationWarning>
       <head>
+        <ThemeBootstrap enabled={netflixEnabled} />
         <meta
           name='viewport'
           content='width=device-width, initial-scale=1.0, viewport-fit=cover'
@@ -120,8 +129,12 @@ export default async function RootLayout({
           disableTransitionOnChange
         >
           <SiteProvider siteName={siteName} announcement={announcement}>
-            {children}
-            <GlobalErrorIndicator />
+            <ThemePresetProvider enabled={netflixEnabled}>
+              <ThemeShell>
+                {children}
+                <GlobalErrorIndicator />
+              </ThemeShell>
+            </ThemePresetProvider>
           </SiteProvider>
         </ThemeProvider>
       </body>

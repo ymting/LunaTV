@@ -1,0 +1,19 @@
+[
+  {
+    "hook": "data-theme-scope=consumer",
+    "file": "src/features/theme/components/ThemeShell.tsx",
+    "binding": "scope",
+    "declaration": "const scope = route === 'player' ? 'consumer' : route;",
+    "reason": "只允许消费界面使用旧组件兼容样式，后台与认证界面不参与品牌覆盖"
+  },
+  {
+    "hook": "data-theme-surface=page",
+    "file": "src/features/theme/components/ThemeShell.tsx",
+    "reason": "页面外层使用深炭背景和高对比正文，不改变子组件语义颜色"
+  },
+  {
+    "hook": "aria-label=Toggle theme",
+    "file": "src/components/ThemeToggle.tsx",
+    "reason": "固定暗色消费界面隐藏原明暗切换按钮，主题预设由独立入口切换"
+  }
+]

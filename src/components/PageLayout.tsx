@@ -1,3 +1,5 @@
+import NetflixShell from '@/features/theme/components/NetflixShell';
+
 import { BackButton } from './BackButton';
 import MobileBottomNav from './MobileBottomNav';
 import MobileHeader from './MobileHeader';
@@ -12,14 +14,15 @@ interface PageLayoutProps {
 
 const PageLayout = ({ children, activePath = '/' }: PageLayoutProps) => {
   return (
-    <div className='w-full min-h-screen'>
+    <div className='w-full min-h-screen' data-theme-layout='page'>
+      <NetflixShell activePath={activePath} />
       {/* 移动端头部 */}
       <MobileHeader showBackButton={['/play', '/live'].includes(activePath)} />
 
       {/* 主要布局容器 */}
       <div className='flex md:grid md:grid-cols-[auto_1fr] w-full min-h-screen md:min-h-auto'>
         {/* 侧边栏 - 桌面端显示，移动端隐藏 */}
-        <div className='hidden md:block'>
+        <div className='hidden md:block' data-theme-navigation='sidebar'>
           <Sidebar activePath={activePath} />
         </div>
 
@@ -33,13 +36,14 @@ const PageLayout = ({ children, activePath = '/' }: PageLayoutProps) => {
           )}
 
           {/* 桌面端顶部按钮 */}
-          <div className='absolute top-2 right-4 z-20 hidden md:flex items-center gap-2'>
+          <div data-theme-navigation='utilities' className='absolute top-2 right-4 z-20 hidden md:flex items-center gap-2'>
             <ThemeToggle />
             <UserMenu />
           </div>
 
           {/* 主内容 */}
           <main
+            data-theme-content='main'
             className='flex-1 md:min-h-0 mb-14 md:mb-0 md:mt-0 mt-12'
             style={{
               paddingBottom: 'calc(3.5rem + env(safe-area-inset-bottom))',
@@ -51,7 +55,7 @@ const PageLayout = ({ children, activePath = '/' }: PageLayoutProps) => {
       </div>
 
       {/* 移动端底部导航 */}
-      <div className='md:hidden'>
+      <div className='md:hidden' data-theme-navigation='mobile'>
         <MobileBottomNav activePath={activePath} />
       </div>
     </div>

@@ -23,9 +23,11 @@ import { DoubanItem } from '@/lib/types';
 import CapsuleSwitch from '@/components/CapsuleSwitch';
 import ContinueWatching from '@/components/ContinueWatching';
 import PageLayout from '@/components/PageLayout';
-import ScrollableRow from '@/components/ScrollableRow';
 import { useSite } from '@/components/SiteProvider';
 import VideoCard from '@/components/VideoCard';
+
+import ScrollableRow from '@/features/theme/components/ContentRail';
+import NetflixHome from '@/features/theme/components/NetflixHome';
 
 function HomeClient() {
   const [activeTab, setActiveTab] = useState<'home' | 'favorites'>('home');
@@ -183,9 +185,10 @@ function HomeClient() {
 
   return (
     <PageLayout>
-      <div className='px-2 sm:px-10 py-4 sm:py-8 overflow-visible'>
+      <div data-theme-home className='px-2 sm:px-10 py-4 sm:py-8 overflow-visible'>
+        <NetflixHome movies={hotMovies} loading={loading} activeTab={activeTab} />
         {/* 顶部 Tab 切换 */}
-        <div className='mb-8 flex justify-center'>
+        <div data-theme-home-tabs className='mb-8 flex justify-center'>
           <CapsuleSwitch
             options={[
               { label: '首页', value: 'home' },

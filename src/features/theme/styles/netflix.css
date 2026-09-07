@@ -1,0 +1,475 @@
+/* 经典模式仅增加独立主题入口，其余新增展示层不占据布局空间。 */
+.theme-shell,
+.theme-content-rail {
+  display: contents;
+}
+.netflix-shell {
+  display: none;
+}
+.theme-rail-buttons {
+  display: none;
+}
+[data-theme='netflix'] .theme-content-rail {
+  display: block;
+  position: relative;
+}
+[data-theme='netflix'] .theme-rail-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 6px;
+  margin-top: -32px;
+  margin-bottom: 24px;
+}
+[data-theme='netflix'] .theme-rail-buttons button {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--theme-border);
+  border-radius: 4px;
+  background: var(--theme-surface-raised);
+}
+/* 原滚动箭头只在悬停显示；Netflix 使用始终可键盘访问的独立按钮。 */
+[data-theme='netflix'] [data-theme-rail] > .relative > div:not(:first-child) {
+  display: none;
+}
+.theme-preset-menu {
+  position: fixed;
+  right: 64px;
+  bottom: calc(16px + env(safe-area-inset-bottom));
+  z-index: 750;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid #d1d5db;
+  border-radius: 7px;
+  padding: 6px 9px;
+  color: #374151;
+  background: #fff;
+  box-shadow: 0 3px 16px #0002;
+  font-size: 12px;
+}
+.theme-preset-menu select {
+  max-width: 118px;
+  cursor: pointer;
+  color: inherit;
+  background: transparent;
+  padding: 4px 0;
+}
+.dark .theme-preset-menu {
+  color: #eee;
+  background: #232323;
+  border-color: #555;
+}
+.theme-preset-menu:focus-within {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+html[data-theme='netflix'] body[class] {
+  background: var(--theme-bg);
+  color: var(--theme-text);
+}
+[data-theme='netflix'] [data-theme-scope='consumer'] input:focus {
+  --tw-ring-color: var(--theme-focus);
+}
+[data-theme='netflix'] [data-theme-scope='consumer'] input::placeholder {
+  color: var(--theme-text-muted);
+}
+/* 登录只识别实际表单和标题，不把成功提示的绿色当成品牌色。 */
+[data-theme='netflix'] [data-theme-scope='auth'] h1 {
+  color: var(--theme-brand);
+}
+[data-theme='netflix'] [data-theme-scope='auth'] form button[type='submit'] {
+  background: var(--theme-brand);
+}
+[data-theme='netflix']
+  [data-theme-scope='auth']
+  form
+  button[type='submit']:hover:not(:disabled) {
+  background: var(--theme-brand-hover);
+}
+[data-theme='netflix'] [data-theme-scope='auth'] input:focus {
+  --tw-ring-color: var(--theme-focus);
+}
+[data-theme='netflix'] [data-theme-scope='auth'] [aria-label='Toggle theme'],
+[data-theme='netflix'] [data-theme-scope='admin'] [aria-label='Toggle theme'] {
+  display: none;
+}
+[data-theme='netflix'] [data-theme-route='consumer'] .netflix-shell {
+  display: block;
+}
+[data-theme='netflix']
+  [data-theme-route='consumer']
+  [data-theme-layout='page']
+  > .netflix-shell
+  + * {
+  display: none;
+}
+[data-theme='netflix'] [data-theme-route='consumer'] [data-theme-navigation] {
+  display: none;
+}
+[data-theme='netflix']
+  [data-theme-route='consumer']
+  [data-theme-layout='page']
+  > .flex {
+  display: block;
+}
+[data-theme='netflix']
+  [data-theme-route='consumer']
+  [data-theme-content='main'] {
+  margin-top: 0;
+}
+[data-theme='netflix'] [data-theme-home] {
+  padding: 0 4vw 2rem;
+}
+[data-theme='netflix'] [data-theme-home] > .max-w-\[95\%\] {
+  max-width: none;
+}
+[data-theme='netflix'] [data-theme-home-tabs] {
+  justify-content: flex-start;
+  margin: 12px 0 34px;
+}
+[data-theme='netflix'] [data-theme-home] section > div > h2 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--theme-text);
+  letter-spacing: -0.025em;
+}
+[data-theme='netflix'] [data-theme-home] section > div > a {
+  color: var(--theme-text-muted);
+}
+.netflix-header {
+  height: 76px;
+  padding: 0 4vw;
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+  background: linear-gradient(#090909, #141414);
+  position: relative;
+  z-index: 45;
+}
+.netflix-wordmark {
+  font-size: clamp(21px, 2.4vw, 30px);
+  font-weight: 850;
+  letter-spacing: -0.055em;
+  color: var(--theme-brand);
+  white-space: nowrap;
+  max-width: 240px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.netflix-navigation {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  font-size: 14px;
+  color: #c7c7c7;
+}
+.netflix-navigation a {
+  padding: 12px 0;
+  white-space: nowrap;
+  transition: color 150ms;
+}
+.netflix-navigation a:hover,
+.netflix-navigation [aria-current='page'] {
+  color: #fff;
+}
+.netflix-navigation [aria-current='page'] {
+  font-weight: 700;
+}
+.netflix-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: auto;
+}
+.netflix-search {
+  padding: 10px;
+}
+.netflix-hero {
+  position: relative;
+  isolation: isolate;
+  min-height: 520px;
+  height: min(640px, 66vw);
+  margin: 0 -4vw;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 58px 4vw 76px;
+  background: #202020;
+}
+.netflix-hero-backdrop {
+  position: absolute;
+  inset: -80px;
+  z-index: -3;
+  background-size: cover;
+  background-position: center 30%;
+  filter: blur(40px);
+  opacity: 0.35;
+}
+.netflix-hero-shade {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(
+      90deg,
+      #141414 0%,
+      #141414eb 32%,
+      #14141470 60%,
+      #14141422
+    ),
+    linear-gradient(0deg, #141414, transparent 40%);
+}
+.netflix-hero-copy {
+  max-width: 58%;
+  z-index: 2;
+}
+.netflix-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #ddd;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  margin-bottom: 22px;
+}
+.netflix-eyebrow span {
+  width: 20px;
+  height: 2px;
+  background: var(--theme-brand);
+}
+.netflix-hero h1 {
+  max-width: 650px;
+  font-size: clamp(32px, 4.8vw, 66px);
+  font-weight: 800;
+  line-height: 1.14;
+  letter-spacing: -0.045em;
+  text-wrap: balance;
+}
+.netflix-hero-meta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 22px;
+  font-size: 14px;
+  color: #bdbdbd;
+}
+.netflix-rating {
+  color: #eee;
+  border-left: 3px solid var(--theme-brand);
+  padding-left: 10px;
+  font-weight: 600;
+}
+.netflix-hero-description {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #c0c0c0;
+  max-width: 340px;
+  margin-top: 20px;
+}
+.netflix-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+.netflix-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  min-height: 46px;
+  padding: 11px 23px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 700;
+  transition: background 150ms;
+}
+.netflix-button-primary {
+  background: var(--theme-brand);
+  color: #fff;
+}
+.netflix-button-primary:hover {
+  background: var(--theme-brand-hover);
+}
+.netflix-button-secondary {
+  background: #ffffff1a;
+  color: #fff;
+}
+.netflix-button-secondary:hover {
+  background: #ffffff2e;
+}
+.netflix-hero-art {
+  position: absolute;
+  right: 9vw;
+  top: 28px;
+  bottom: 40px;
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -2;
+}
+.netflix-hero-art img {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center;
+  box-shadow: 0 24px 75px #0008;
+}
+[data-theme='netflix'] .netflix-card-frame {
+  flex: 0 0 clamp(150px, 14vw, 208px);
+  scroll-snap-align: start;
+  position: relative;
+  transition: transform 180ms ease;
+  transform-origin: center center;
+}
+[data-theme='netflix'] .netflix-card-frame > div {
+  width: 100%;
+  min-width: 0;
+}
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  [data-theme='netflix'] .netflix-card-frame:hover {
+    transform: translateY(-5px);
+    z-index: 5;
+  }
+}
+[data-theme='netflix']
+  [data-theme-scope='consumer']
+  :is(a, button, select, [tabindex='0']):focus-visible {
+  outline: 2px solid var(--theme-focus);
+  outline-offset: 4px;
+}
+@media (max-width: 767px) {
+  [data-theme='netflix'] .theme-rail-buttons {
+    display: none;
+  }
+  .theme-preset-menu {
+    bottom: calc(72px + env(safe-area-inset-bottom));
+    right: 10px;
+  }
+  [data-theme='netflix'] .theme-preset-menu {
+    bottom: calc(12px + env(safe-area-inset-bottom));
+    right: 64px;
+  }
+  [data-theme='netflix'] [data-theme-route='player'] .theme-preset-menu {
+    bottom: calc(72px + env(safe-area-inset-bottom));
+  }
+  .netflix-header {
+    height: auto;
+    min-height: 108px;
+    padding-top: 15px;
+    padding-bottom: 9px;
+    flex-wrap: wrap;
+    gap: 6px 16px;
+  }
+  .netflix-wordmark {
+    order: 0;
+    max-width: 60%;
+  }
+  .netflix-header-actions {
+    order: 1;
+  }
+  .netflix-navigation {
+    order: 2;
+    width: 100%;
+    gap: 25px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    font-size: 13px;
+  }
+  .netflix-navigation a {
+    padding: 10px 0;
+  }
+  .netflix-hero {
+    height: auto;
+    min-height: 540px;
+    align-items: flex-end;
+    padding-top: 250px;
+    padding-bottom: 40px;
+  }
+  .netflix-hero-copy {
+    max-width: 100%;
+  }
+  .netflix-hero h1 {
+    font-size: clamp(31px, 8vw, 44px);
+    max-width: 90%;
+  }
+  .netflix-hero-art {
+    top: 4px;
+    bottom: auto;
+    height: 310px;
+    width: 65%;
+    right: 1vw;
+    opacity: 0.9;
+  }
+  .netflix-hero-shade {
+    background: linear-gradient(0deg, #141414 4%, #141414ed 32%, #14141433 90%),
+      linear-gradient(90deg, #141414, transparent);
+  }
+  .netflix-hero-description {
+    font-size: 13px;
+    margin-top: 14px;
+  }
+  .netflix-eyebrow {
+    font-size: 10px;
+    margin-bottom: 16px;
+  }
+  .netflix-hero-meta {
+    margin-top: 16px;
+    font-size: 12px;
+  }
+  .netflix-button {
+    padding: 10px 16px;
+    min-height: 44px;
+  }
+  .netflix-hero-actions {
+    margin-top: 20px;
+  }
+  [data-theme='netflix'] .netflix-card-frame {
+    flex-basis: 130px;
+  }
+  [data-theme='netflix'] [data-theme-home-tabs] {
+    margin-top: 0;
+    margin-bottom: 28px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-theme='netflix'] [data-theme-scope='consumer'] *,
+  [data-theme='netflix'] [data-theme-scope='consumer'] *::before,
+  [data-theme='netflix'] [data-theme-scope='consumer'] *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* 原轨道子节点契约保留所有滚动和卡片交互，只调整展示密度。 */
+[data-theme='netflix'] [data-theme-rail] > div > div:first-child {
+  gap: 18px;
+  padding-left: 2px;
+  padding-right: 2px;
+  scroll-snap-type: x proximity;
+}
+[data-theme='netflix'] [data-theme-rail] .netflix-card-frame {
+  margin-left: 0;
+  margin-right: 0;
+  width: clamp(150px, 14vw, 208px);
+  min-width: 0;
+}
+@media (max-width: 767px) {
+  [data-theme='netflix'] [data-theme-rail] > div > div:first-child {
+    gap: 12px;
+  }
+  [data-theme='netflix'] [data-theme-rail] .netflix-card-frame {
+    width: 130px;
+  }
+}
+
+/* 同步首屏隐藏，经典主题无需等待客户端状态初始化。 */
+html:not([data-theme='netflix']) .netflix-hero {
+  display: none;
+}

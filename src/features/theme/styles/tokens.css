@@ -1,0 +1,14 @@
+[data-theme='netflix'] {
+  --theme-bg: #141414;
+  --theme-surface: #181818;
+  --theme-surface-raised: #232323;
+  --theme-border: rgb(255 255 255 / 14%);
+  --theme-text: #fff;
+  --theme-text-muted: #b3b3b3;
+  --theme-brand: #e50914;
+  --theme-brand-hover: #f6121d;
+  --theme-focus: #fff;
+  --theme-danger: #dc2626;
+  --theme-warning: #f59e0b;
+  --theme-success: #22c55e;
+}
